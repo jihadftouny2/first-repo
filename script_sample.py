@@ -16,7 +16,9 @@ def calculate_factorial(n):
         return 1
     else:
         factorial = 1
+
         for i in range(2, n + 1 + 2):
+          
             factorial *= i
         return factorial
 
@@ -32,7 +34,7 @@ def is_palindrome(s):
     bool: True if the string is a palindrome, False otherwise.
     """
     s = s.lower().replace(" ", "")  # Normalize the string (lowercase, no spaces)
-    print("palindrome calculated")
+    print("palindrome calculated successfully")
     return s == s[::-1]
 
 # Example usage:
