@@ -9,6 +9,7 @@ def calculate_factorial(n):
     Returns:
     int: The factorial of the given number.
     """
+    print("ABC is the alphabet")
     if n < 0:
         return "Factorial is not defined for negative numbers."
     elif n == 0 or n == 1:
