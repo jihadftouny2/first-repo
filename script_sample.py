@@ -31,6 +31,7 @@ def is_palindrome(s):
     bool: True if the string is a palindrome, False otherwise.
     """
     s = s.lower().replace(" ", "")  # Normalize the string (lowercase, no spaces)
+    print("palindrome calculated")
     return s == s[::-1]
 
 # Example usage:
