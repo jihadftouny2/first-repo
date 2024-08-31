@@ -16,7 +16,7 @@ def calculate_factorial(n):
         return 1
     else:
         factorial = 1
-        for i in range(2, n + 1):
+        for i in range(2, n + 1 + 3):
             factorial *= i
         return factorial
 
